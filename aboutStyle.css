@@ -1,0 +1,106 @@
+html {
+  color: rgb(255, 255, 255);
+  background-color: rgb(44, 47, 54);
+}
+
+body{
+  min-height: 100vh;
+  background-position: 0px -20vh;
+  background-repeat: no-repeat;
+  background-image: radial-gradient(50% 50% at 50% 50%, rgba(33, 114, 229, 0.1) 0%, rgba(33, 36, 41, 0) 100%);
+}
+
+#navBar {
+    width: 90%;
+    height: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 4%;
+    padding-bottom: 1.25%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 65px;
+    background-color: #0B111F;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+#navText{
+  position: relative;
+  z-index: 2;
+}
+
+#subDiv1, #subDiv2, #subDiv3, #subDiv4, #subDiv5, #subDiv6, #subDiv7{
+    width: 14.2857%;
+    height: 75px;
+    text-align: center;
+    font-family: monospace;
+    font-size: 17px;
+    float: left;
+}
+
+#subDiv1 img, #subDiv2 img, #subDiv3 img, #subDiv4 img, #subDiv5 img{
+  width: 145px;
+  height: 145px;
+  display: block;
+  margin-top: -80px;
+  margin-left: auto;
+  margin-right: auto;
+  transition: transform 1.4s ease-in-out;
+}
+
+#subDiv1 img:hover, #subDiv2 img:hover, #subDiv3 img:hover, #subDiv4 img:hover, #subDiv5 img:hover{
+  transform: rotate(360deg);
+}
+
+#subDiv7 img{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#logo{
+  display: block;
+  width: 120px;
+  margin-top: -47.5px;
+}
+
+#sun{
+  display: block;
+  width: 35px;
+  margin-top: 15px;
+}
+
+#moon{
+  display: block;
+  width: 25px;
+  margin-top: -30px;
+}
+
+/* Made By Cameron */
+.center {
+  margin-left: auto;
+  margin-right: auto;
+   font-size: 30px;
+  text-align: center;
+  width: 50%;
+}
+
+.footer {
+  color: rgb(0,0,0); /*Sam*/
+  background-color: #B0B0B0; /*Sam*/
+  text-align: center;
+  padding: 10px;
+}
+#footerlogo {
+  padding-left: 15px;
+  padding-top: 10px;
+  float: center;
+  height: 107px;
+  width: 100px;
+}
+.footercenter {
+  margin-left: auto;
+  margin-right: auto;
+  font-style: italic;
+   font-size: 14px;
+  text-align: center;
+width: 25%;}
